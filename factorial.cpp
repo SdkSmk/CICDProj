@@ -1,4 +1,5 @@
 #include "factorial.hpp"
+#include "user_exception.hpp"
 int factorial(int n)
 {
  if(n<0)

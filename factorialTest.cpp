@@ -1,5 +1,7 @@
 #include "factorial.hpp"
 #include "gtest/gtest.h"
+#include "user_exception.hpp"
+
 TEST(factorialTest, HandlesZeroInput) {
  EXPECT_EQ(factorial(0), 1);
 }
